@@ -5,6 +5,7 @@ const axios = require('axios')
 const dictionary = require('./utils/dictionary')
 const { setChannel } = require('./utils/channel')
 const stats = require('./utils/stats')
+const keep_alive = require('./keep_alive.js')
 require('dotenv').config()
 
 const emptyData = {}
